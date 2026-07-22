@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 
+##Pulling all the data from the synthetic dataset
+
 class Scraper:
 
     def __init__(self,csv_file):
@@ -9,6 +11,8 @@ class Scraper:
     def pull_data(self,csv_file):
         file_data = pd.read_csv(self.csv_file)
         return file_data
+
+    
 
 
 ## further scraping required           

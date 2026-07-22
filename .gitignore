@@ -3,3 +3,4 @@ dataset/raw/
 dataset/synthetic/
 *.env
 *.db
+/ciccenv
